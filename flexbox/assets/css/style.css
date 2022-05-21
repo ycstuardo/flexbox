@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.button button {
+  background-color: #a491d2;
+  color: white;
+}
+.flex {
+  display: flex;
+  height: 100vh;
+}
+.flex-maria {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: solid grey;
+}
+.flex-item {
+  display: flex;
+  gap: 1rem;
+  background-color: white;
+  border: solid 1px gray;
+}
+.flex-contact img {
+  margin-left: 1.5rem;
+}
+.flex-img {
+  display: flex;
+  gap: 1rem;
+}
+.box img {
+  width: 2.5rem;
+  border-radius: 150%;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border: solid black;
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+}
+.transparent {
+  opacity: 0.5;
+}
